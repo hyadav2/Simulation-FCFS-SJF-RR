@@ -4,10 +4,10 @@ Navigate to "SP\bin\Debug" to find the executable and the json input file.
 To run the Shortest Job First Algorithm change the Algorithm name to "SJF" in the process_input.json file and save it.
 Double click the SP.exe executable to run the program. The log file is generated in "SP\LogFile.txt"
 
-To run the Shortest Job First Algorithm change the Algorithm name to "FCFS" in the process_input.json file and save it.
+To run the First In First Out Algorithm change the Algorithm name to "FCFS" in the process_input.json file and save it.
 Double click the SP.exe executable to run the program. The log file is generated in "SP\LogFile.txt"
 
-To run the Shortest Job First Algorithm change the Algorithm name to "RR" in the process_input.json file and save it.
+To run the Round Robin change the Algorithm name to "RR" in the process_input.json file and save it.
 Double click the SP.exe executable to run the program. The log file is generated in "SP\LogFile.txt"
 Note: RR processes are logged in the completed order. The visual studio application is unable to do read-write operations on the logfile for each and every quantum because if an attempt is made to write this log(more than 1000 entries) the program executes faster than the IO operation and enters an infinite loop. However, if the same output is printed to the console the program waits for the write operation of the console as it is a part of the program and not independent. The console outputs all the steps correctly and executes successfully. This is a shortcoming of Visual Studio and not the program. 
 
